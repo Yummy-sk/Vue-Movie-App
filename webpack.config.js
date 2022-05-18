@@ -54,8 +54,8 @@ module.exports = {
     new HtmlPlugin({
       template: "./public/index.html",
     }),
-    new Dotenv(),
     new VueLoaderPlugin(),
+    new Dotenv({ systemvars: true }),
   ],
 
   devServer: {

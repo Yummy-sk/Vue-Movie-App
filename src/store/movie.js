@@ -10,6 +10,7 @@ const _fetch = async (url) => {
 
 const fetchMovie = async (payload) => {
   const { title, type, year, page, id } = payload;
+  console.log(process.env.VUE_APP_API_KEY);
   const API_ROOT = `https://www.omdbapi.com/?apikey=${process.env.VUE_APP_API_KEY}`;
   const API_PARAMS = id
     ? `&i=${id}`

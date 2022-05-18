@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://main--kaleidoscopic-daffodil-c4b63e.netlify.app/#/sitemap.xml
